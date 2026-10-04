@@ -1,7 +1,7 @@
 """
 Inference robustness checks for Beaman et al. (2012).
 
-Tests whether the statistical conclusions survive proper inference:
+Compares uncertainty under alternative inference procedures:
   1. Wild cluster bootstrap p-values (critical for 20-GP twice-reserved cell)
   2. Multiple testing corrections (Bonferroni, Benjamini-Hochberg)
   3. Alternative clustering (GP vs. village vs. household)

@@ -1,4 +1,4 @@
-# Beaman et al. (2012) Replication
+# Women Leaders and Adolescent Aspirations
 
 Python replication and robustness analysis of:
 
@@ -11,11 +11,9 @@ Python replication and robustness analysis of:
 
 This repository replicates the main tables from Beaman et al. (2012) and conducts inference robustness checks. The paper examines whether exposure to female political leaders affects adolescent girls' aspirations in rural India, exploiting random assignment of village council seats to women.
 
-## Key Findings
+## Comparison-group means
 
-### Baseline Replication
-
-Baseline means in never-reserved villages match the published values within rounding tolerance.
+The table compares published and reproduced means in never-reserved villages. Differences vary by outcome; several exceed rounding tolerance.
 
 | Outcome | Boys (paper) | Boys (reproduced) | Girls (paper) | Girls (reproduced) |
 |---------|--------------|-------------------|---------------|---------------------|
@@ -24,7 +22,7 @@ Baseline means in never-reserved villages match the published values within roun
 | marry_after18 | 0.980 | 0.980 | 0.660 | 0.662 |
 | wish_pradhan | 0.499 | 0.504 | 0.485 | 0.487 |
 
-### Inference Summary
+## Estimates and uncertainty
 
 P-values for the twice-reserved × female interaction across all seven outcomes:
 
