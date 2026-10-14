@@ -134,3 +134,7 @@ Variable definitions are in [scripts/codebook.py](scripts/codebook.py).
 ## License
 
 MIT
+
+<!-- adjacent:start -->
+
+<!-- adjacent:end -->
